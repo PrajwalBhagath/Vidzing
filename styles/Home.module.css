@@ -1,0 +1,84 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  position: relative;
+  margin-left: 9.5%;
+  top: 0;
+  width: 110%;
+  padding: 0%;
+}
+
+.title {
+  /* position: relative; */
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 9px;
+}
+
+.title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 2.5rem;
+}
+.card {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.cardGrid {
+  max-width: 1200px;
+  margin-top: 3rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 5fr));
+  grid-auto-rows: 0.2fr;
+  grid-gap: 10px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.Grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}

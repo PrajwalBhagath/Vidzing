@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora&display=swap");
+.button {
+  border-radius: 8px;
+  border: 8px;
+  width: 20rem;
+  height: 5rem;
+  font-family: "PT Serif", serif;
+  font-size: medium;
+  background: rgb(99, 203, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 203, 248, 1) 0%,
+    rgba(83, 233, 178, 1) 100%
+  );
+}
+
+.input {
+  border-radius: 8px;
+  border-width: 1px;
+  padding: auto;
+  width: 20rem;
+  margin-right: 1rem;
+  font-family: "PT Serif", serif;
+  font-size: medium;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #63cbf8;
+  font-family: "Lora", serif;
+  border-radius: 8px;
+  background-color: #53e9b2;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  font-size: medium;
+}
+.card__inner {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  color: #fff;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.5s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card__inner h2 {
+  margin-bottom: 0;
+}
+.card:hover .card__inner {
+  opacity: 1;
+}
+.cardInfo {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #63cbf8;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.cardInfoItem {
+  font-size: medium;
+  margin-bottom: 1rem;
+  height: 8rem;
+  /* margin-bottom: 10px; */
+}
+
+.cardFooter {
+  height: 4rem;
+  display: flex;
+  color: white;
+}
+
+.cardFooter p {
+  margin-top: 23px;
+  margin-left: 1rem;
+}
